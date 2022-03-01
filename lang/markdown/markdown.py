@@ -8,4 +8,7 @@ ctx.lists["user.markdown_code_block_language"] = {
     "typescript": "typescript",
     "python": "python",
     "code": "",
+    "javascript": "js",
+    "css": "css",
+    "html": "html",
 }
