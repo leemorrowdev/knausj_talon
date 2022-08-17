@@ -1,8 +1,5 @@
 -
 settings():
-    # Increase key hold time
-    key_hold = 16
-
     # Adjust the scale of the imgui to my liking
     imgui.scale = 1.3
 

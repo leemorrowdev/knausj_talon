@@ -190,22 +190,22 @@ class UserActions:
         actions.auto_insert(" %= ")
 
     def code_operator_equal():
-        actions.auto_insert(" == ")
+        actions.auto_insert(" === ")
 
     def code_operator_not_equal():
-        actions.auto_insert(" != ")
+        actions.auto_insert(" !== ")
 
     def code_operator_greater_than():
         actions.auto_insert(" > ")
 
     def code_operator_greater_than_or_equal_to():
-        actions.auto_insert(" >= ")
+        actions.auto_insert(" >== ")
 
     def code_operator_less_than():
         actions.auto_insert(" < ")
 
     def code_operator_less_than_or_equal_to():
-        actions.auto_insert(" <= ")
+        actions.auto_insert(" <== ")
 
     def code_operator_and():
         actions.auto_insert(" && ")

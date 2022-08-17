@@ -52,3 +52,25 @@ state spread: "..."
 
 from import:
     user.insert_between(' from  "', '"')
+
+state comment: "// "
+
+state element: "<></>"
+
+state hook: "const [, ] = ();"
+
+state react hook: "const [, ] = React.();"
+
+state prop: " ={}"
+7
+state string prop: " =\"\""
+
+state rule: " {}"
+
+state styled component: "const  = styled.``;"
+
+state styled component composed: "const  = styled()``;"
+
+state property: ": ;"
+
+state media: "@media (: ) {}"
