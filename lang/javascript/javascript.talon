@@ -55,6 +55,8 @@ from import:
 
 state comment: "// "
 
+state ternary: " ?  : "
+
 state element: "<></>"
 
 state hook: "const [, ] = ();"
@@ -62,7 +64,7 @@ state hook: "const [, ] = ();"
 state react hook: "const [, ] = React.();"
 
 state prop: " ={}"
-7
+
 state string prop: " =\"\""
 
 state rule: " {}"
